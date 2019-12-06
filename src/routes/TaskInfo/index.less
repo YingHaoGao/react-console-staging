@@ -1,0 +1,172 @@
+@import "~@uyun/everest-styles/index";
+
+@badge-color: @gray-body, @white, @white;
+
+.basic-table {
+  margin: 16px;
+
+  .uy-badge-status-text {
+    color: @badge-color;
+  }
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    .title-select {
+      width: 120px;
+      margin-right: 10px;
+    }
+    .title-del {
+      margin-right: 10px;
+      color: #3883F8;
+      cursor: pointer;
+    }
+    .title-edit {
+      margin-right: 10px;
+      color: #3883F8;
+      cursor: pointer;
+    }
+  }
+
+  .info {
+    font-size: 14px;
+    line-height: 200%;
+  }
+
+  .state {
+    text-align: right;
+    margin-top: 10px;
+    .state-title {
+      font-size: 14px;
+    }
+    .state-text {
+      font-size: 20px;
+      color: @lime-7;
+    }
+  }
+
+  .info-list {
+    .info-list-title {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      span {
+        color: #3883F8;
+        cursor: pointer;
+      }
+    }
+
+    .info-list-content {
+      li {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+        .info-list-text{
+          margin-right: 20px;
+        }
+
+        .info-list-download {
+          color: #3883F8;
+          cursor: pointer;
+        }
+      }
+      .info-list-table {
+        padding-top: 10px;
+      }
+    }
+  }
+}
+
+.create-subtask {
+  .create-subtask-info {
+    margin-bottom: 10px;
+    span {
+      font-size: 14px;
+    }
+    .create-subtask-info-required {
+      color: red;
+    }
+    .create-subtask-info-input {
+      width: 200px;
+    }
+    .create-subtask-info-select {
+      width: 160px;
+    }
+    .create-subtask-info-textArea {
+      margin-top: 10px;
+    }
+  }
+  
+  .create-subtask-list {
+    .create-subtask-list-title {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+  
+    ul {
+      li {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+      &.create-subtask-list-attachment {
+        li {
+          display: flex;
+          justify-content: space-between;
+        }
+        .create-subtask-list-del {
+          color: #3883F8;
+          cursor: pointer;
+        }
+      }  
+    }
+  }
+}
+
+.working-hours {
+  .working-hours-info {
+    margin-bottom: 10px;
+    span {
+      font-size: 14px;
+    }
+
+    .working-hours-info-input {
+      width: 200px;
+    }
+    .working-hours-info-textArea {
+      margin-top: 10px;
+    }
+  }
+  
+  .working-hours-list {
+    .working-hours-list-title {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+  
+    ul {
+      li {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        .working-hours-list-del {
+          color: #3883F8;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

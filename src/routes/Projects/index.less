@@ -1,0 +1,36 @@
+@import "~@uyun/everest-styles/index";
+
+@badge-color: @gray-body, @white, @white;
+
+.basic-projects {
+  margin: 16px;
+
+  .uy-badge-status-text {
+    color: @badge-color;
+  }
+  .uyun-card-body{
+  	padding: 0px;
+  }
+  .uyun-input-search{
+  	width: 250px;
+	  .uyun-input{
+	  	width: 100%;
+	  }
+  }
+
+  header{
+		position: relative;
+		margin-top: 20px;
+
+		h2{
+			font-size: 16px;
+			font-weight: 650;
+		}
+		.radio{
+			position: absolute;
+			right: 10px;
+			top: 50%;
+			transform: translate(0, -50%);
+		}
+	}
+}

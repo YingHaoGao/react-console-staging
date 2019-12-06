@@ -1,0 +1,39 @@
+@import "~@uyun/everest-styles/index";
+
+@badge-color: @gray-body, @white, @white;
+
+.cardUser{
+	font-family: 'PingFangSC-Regular', 'PingFang SC';
+	font-weight: 400;
+
+	.title{
+		font-size: 20px;
+		color: @badge-color;
+	}
+	.info{
+		margin: 10px 0px;
+		font-size: 14px;
+		line-height: 22px;
+
+		span{
+			padding: 0px 10px;
+		}
+
+	}
+	.numBox{
+		font-family: 'ArialMT', 'Arial';
+		font-size: 14px;
+		position: absolute;
+		right: 20px;
+		top: 50%;
+		transform: translate(0, -50%);
+		text-align: right;
+		
+		.num{
+			font-size: 30px;
+		}
+		.total{
+			font-size:20px;
+		}
+	}
+}

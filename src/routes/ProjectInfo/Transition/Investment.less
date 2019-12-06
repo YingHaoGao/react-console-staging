@@ -1,0 +1,38 @@
+@import "~@uyun/everest-styles/index";
+
+@badge-color: @gray-body, @white, @white;
+@btn-color: @blue-6, @white;
+
+.basic-table {
+  margin: 16px;
+  position: relative;
+
+  .uy-badge-status-text {
+    color: @badge-color;
+  }
+  .buttonBox{
+    padding: 0px !important;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 10;
+
+    button{
+      margin-right: 0px !important;
+    }
+  }
+  .bodyer{
+  	.uyun-row .uyun-row{
+  		padding-bottom: 10px;
+  	}
+  	.blue{
+  		color: @btn-color;
+  	}
+  	.green{
+  		color: @lime-6;
+  	}
+  	.orange{
+  		color: @gold-6;
+  	}
+  }
+}

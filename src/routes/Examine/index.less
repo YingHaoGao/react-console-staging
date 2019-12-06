@@ -1,0 +1,25 @@
+@import "~@uyun/everest-styles/index";
+
+@badge-color: @gray-body, @white, @white;
+
+.basic-examine {
+  margin: 16px;
+
+  header{
+  	margin-bottom: 10px;
+  	position: relative;
+
+  	.uyun-input-search{
+  		width: 200px;
+  	}
+  	.radio{
+			position: absolute;
+			right: 10px;
+			top: 50%;
+			transform: translate(0, -50%);
+		}
+  }
+  .uy-badge-status-text {
+    color: @badge-color;
+  }
+}

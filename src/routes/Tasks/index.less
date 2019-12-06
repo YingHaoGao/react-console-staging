@@ -1,0 +1,39 @@
+@import "~@uyun/everest-styles/index";
+
+@badge-color: @gray-body, @white, @white;
+
+.basic-tasks {
+  margin: 16px;
+
+  .uy-badge-status-text {
+    color: @badge-color;
+  }
+  header{
+    position: relative;
+    width: 100%;
+
+    .uyun-calendar-picker{
+      margin-left: 10px;
+    }
+    .uyun-select{
+      width: 120px;
+      position: absolute;
+      top: 50%;
+      right: 0px;
+      transform: translate(0, -50%);
+
+      .uyun-select-selection{
+        width: 100%;
+      }
+    }
+  }
+  .filter {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    .filter-input {
+      width: 200px;
+      margin-right: 10px;
+    }
+  }
+}

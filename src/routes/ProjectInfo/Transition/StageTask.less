@@ -1,0 +1,50 @@
+@import "~@uyun/everest-styles/index";
+
+@badge-color: @gray-body, @white, @white;
+@btn-color: @blue-6, @white;
+
+.basic-stageTask {
+  margin: 16px;
+
+  .uy-badge-status-text {
+    color: @badge-color;
+  }
+  .uyun-btn-group{
+    width: auto !important;
+  }
+  header{
+  	position: relative;
+  	margin-bottom: 30px;
+
+  	.tableName{
+  		font-size: 14px;
+  		font-weight: 650;
+  		color: @btn-color;
+  	}
+  	.buttonBox{
+	  	padding: 0px !important;
+	  	position: absolute;
+	  	right: 0px;
+	  	top: 50%;
+	  	transform: translate(0,-50%);
+
+	  	button{
+	  		margin-right: 0px !important;
+	  	}
+	  }
+  }
+  .bodyer{
+  	&>div{
+  		padding-bottom: 10px;
+  	}
+  	.blue{
+  		color: @btn-color;
+  	}
+  	.green{
+  		color: @lime-6;
+  	}
+  	.orange{
+  		color: @gold-6;
+  	}
+  }
+}

@@ -1,0 +1,56 @@
+@import "~@uyun/everest-styles/index";
+
+@badge-color: @gray-body, @white, @white;
+@btn-color: @blue-6, @white;
+
+.deliverableMode{
+  .uyun-input{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+.basic-table {
+  margin: 16px;
+  position: relative;
+
+
+  .uy-badge-status-text {
+    color: @badge-color;
+  }
+  
+  header{
+    position: relative;
+    margin-bottom: 10px;
+
+    .inputBox{
+      width: 270px;
+      display: inline-block;
+      margin-right: 20px;
+    }
+    .buttonBox{
+      padding: 0px !important;
+      position: absolute;
+      right: 0px;
+      top: 50%;
+      transform: translate(0,-50%);
+
+      button{
+        margin-right: 0px !important;
+      }
+    }
+  }
+  .bodyer{
+    .uyun-row .uyun-row{
+      padding-bottom: 10px;
+    }
+    .blue{
+      color: @btn-color;
+    }
+    .green{
+      color: @lime-6;
+    }
+    .orange{
+      color: @gold-6;
+    }
+  }
+}
